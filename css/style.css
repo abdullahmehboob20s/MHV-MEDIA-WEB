@@ -11,28 +11,28 @@
   font-size: 100%;
   scroll-behavior: smooth;
 
-  --fs-25px: clamp(14px, 1.7361111111111112vw, 25px);
-  --fs-17px: clamp(12px, 1.1805555555555556vw, 17px);
-  --fs-45px: clamp(20px, 3.125vw, 45px);
-  --fs-69px: clamp(35px, 4.791666666666667vw, 69px);
-  --fs-55px: clamp(30px, 3.8194444444444446vw, 55px);
-  --fs-21px: clamp(16px, 1.4583333333333333vw, 21px);
+  font-size: 100%;
+  scroll-behavior: smooth;
+  --fs-25px: clamp(14px, 1.5vw, 25px);
+  --fs-17px: clamp(12px, 1vw, 17px);
+  --fs-45px: clamp(20px, 2.6vw, 45px);
+  --fs-69px: clamp(35px, 3.8vw, 69px);
+  --fs-55px: clamp(30px, 3.4vw, 55px);
+  --fs-21px: clamp(16px, 1.2vw, 21px);
   --fs-15px: 15px;
-  --fs-19px: clamp(14px, 1.3194444444444444vw, 19px);
-  --fs-24px: clamp(16px, 1.6666666666666667vw, 24px);
-  --fs-22px: clamp(16px, 1.5277777777777777vw, 22px);
-  --fs-27px: clamp(18px, 1.875vw, 27px);
-  --fs-40px: clamp(18px, 2.7777777777777777vw, 40px);
-  --fs-26px: clamp(18px, 1.8055555555555556vw, 26px);
-  --fs-35px: clamp(20px, 2.4305555555555554vw, 35px);
-
+  --fs-19px: clamp(14px, 1.1vw, 19px);
+  --fs-24px: clamp(16px, 1.2vw, 24px);
+  --fs-22px: clamp(16px, 1.3vw, 22px);
+  --fs-27px: clamp(18px, 1.3vw, 27px);
+  --fs-40px: clamp(18px, 1.9vw, 40px);
+  --fs-26px: clamp(18px, 1.5vw, 26px);
+  --fs-35px: clamp(20px, 2vw, 35px);
   --lh-90px: clamp(56px, 6.25vw, 90px);
   --lh-32px: 32px;
   --lh-36px: clamp(26px, 2.5vw, 36px);
   --lh-26px: 26px;
   --lh-42px: clamp(24px, 2.9166666666666665vw, 42px);
   --lh-152: 152.4%;
-
   --dark-blue: #142f43;
   --light-gray: #9d9aa7;
   --gray: #454545;
@@ -538,10 +538,12 @@ nav {
 
 .product-card {
   flex: 1;
-  background: #ffffff;
+  background: #fff4e6;
   box-shadow: 0px 4px 39px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  /* background-color: #e3e8eb; */
   padding: 32px 29px;
+  border: 2px solid #dde5e7;
 }
 .product-card del {
   margin-right: 8px;
@@ -990,8 +992,8 @@ nav {
 
 @media (max-width: 500px) {
   .hero-bottom-right {
-    flex-direction: column;
-    gap: 0.8rem;
+    /* flex-direction: column; */
+    gap: 1rem;
   }
 
   .hero-bottom-right button {
@@ -1005,7 +1007,7 @@ nav {
     gap: 0.8rem;
   }
   .hero-bottom {
-    gap: 0.8rem;
+    gap: 1rem;
   }
 
   .hero-input-wrapper input {
